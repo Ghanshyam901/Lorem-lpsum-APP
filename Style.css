@@ -1,0 +1,131 @@
+
+
+body{
+    background-color:rgb(240, 240, 240);
+    
+   
+}
+.Container{
+    float: left;
+    display: inline;
+    margin-left: 50px;
+   
+}
+
+.Container h1{
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+.Container button{
+    width: 120px;
+    height: 45px;
+    display: inline-block;
+   
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+
+    outline: none;
+    color: #fff;
+    background-color: #f83224;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    opacity: 1;
+  
+ 
+}
+.Container button:hover{
+    opacity: 0.6;
+}
+ #lineColor{
+    
+    text-decoration: line-through;
+    text-decoration-color: #f83224;
+    text-decoration-thickness: .1rem ;
+}
+.menu{
+
+    font-size: 0.9rem;
+     margin-top: 39%;
+    color: rgba(88, 88, 88, 0.979);
+    cursor: pointer;
+}
+
+.heading{
+    margin-left: 10%;
+}
+.headingContent{
+    display: flex;
+    margin-left: 10%;
+
+
+}
+.headingContent h1{
+    font-size: 4.5rem;
+    margin-top: 7%;
+
+}
+.headingContent h3{
+    font-size: 0.9rem;
+    margin-top: 8%;
+    margin-left: 15%;
+    line-height: 1.5;
+    color: rgba(88, 88, 88, 0.979);
+}
+.headingContent p{
+    margin-top: -10%;
+    color: #f83224;
+    font-size: 2rem;
+}
+.line{
+    color: #f83224;
+
+}
+
+.food{
+    display: inline-block;
+    
+    background-color: rgb(253, 253, 253);
+    border-radius: 8%;
+    margin-left: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 10%;
+    height: 13%;
+    cursor: pointer;
+    
+    justify-content: center;
+    box-shadow: 0px 0px 15px 15px #dbd8d8;
+   
+}
+.food:hover {background-color: #e7ece7}
+
+.food:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(189, 189, 189);
+  transform: translateY(4px);
+}
+.food img{
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+.food h1{
+    padding-top: 15px;
+   padding-bottom: 10px;
+    font-size:0.9rem;
+    text-align: center;
+    font-weight: 900;
+}
+.food1{
+    margin-left: 9%;
+    margin-top: 3%;
+    height: 18%;
+}
